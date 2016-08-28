@@ -1,0 +1,36 @@
+
+
+
+
+#portfolio img {
+
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+  #portfolio img {
+    float: none;  }
+}
+
+#data-text {
+  padding-top: 0.5em;
+}
+
+#link-text {
+  text-align: center;
+}
+
+
+
+#portfolio-space a{
+  font-family: $heading-font;
+  color: white;
+}
+
+
+.portfolio-link {
+  float: right;
+  color: $light-blue;
+}

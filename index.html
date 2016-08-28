@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta property="og:image" content="http://www.bhgconcepts.com/img/bhglogo_tagline-02-01.png" />
+    <title>BHG Concepts - Portfolio of Brian H Grant</title>
+  </head>
+  <body>
+    <div id="header-border">
+      <div class="logo-space">
+        <a href="#" title="BHG Concepts Home" id="logo">
+          <img class= "ri" src="./img/logo_blacksmtxt.png" alt="BHG concepts logo"/>
+        </a>
+      </div>
+    </div>
+    <div class="main-content row-flex row-flex-wrap">
+      <div class="col-sm-3 side-image flex-col">
+        <img class="bio-pic img-responsive center-block" src="img/my-face.jpeg" alt="Self Portrait">
+        <h3><strong>Brian H. Grant</strong></h3>
+        <h4>Junior Software Developer</h4>
+        <button type="click" class="btn" id="btn-bio">My Bio</button>
+        <button type="click" class="btn" id="btn-portfolio">Portfolio</button>
+        <button type="click" class="btn" id="btn-resume">Resume</button>
+        <ul class="soc">
+          <li><a class="soc-linkedin" href="http://www.linkedin.com/in/brianhgrant"></a></li>
+          <li><a class="soc-email1 " href="mailto:brian@bhgconcepts.com"></a></li>
+          <li><a class="soc-facebook" href="http://www.facebook.com/brian.grant.982292"></a></li>
+          <li><a class="soc-github" href="https://github.com/brianhgrant"></a></li>
+          <li><a class="soc-freecodecamp soc-icon-last" href="http://www.freecodecamp.com/brianhgrant"></a></li>
+        </ul>
+      </div>
+        <div class="col-sm-9 main-window flex-col">
+          <div id="bio-space">
+            <div class ="row">
+              <h3 id="bio-space-title">ABOUT ME</h3>
+              <h4 id= "bio-space-content"> Hi my name is Brian. I am a software developer living in Portland, Oregon. I have been a part of the local community for over a decade and enjoy the entrepreneurial spirit and cultural life of the city.<br><br>I have worked in the technology sector for the last several years in a support role. Recently I have taken the next step in my career as a developer by enrolling at Epicodus, a coding bootcamp here in Portland.<br><br> I am approximately half way through a program focusing on Ruby on Rails and JavaScript, including Angular 2, Ember.js, Node.js, and JQuery. <br><br>In the Fall of 2016 I will be seeking an internship opportunity to complete my studies. I would love to talk more about any opportunities for an internship or future employment. Contact me via <a href="mailto:brian@bhgconcepts.com">email</a> or let's connect on <a href="http://www.linkedin.com/in/brianhgrant">LinkedIn!</a>
+              </h4>
+              <h4 class="portfolio-content">When I am not coding life finds me rockhounding, silversmithing, enjoying music, spending time with friends and my love, and exploring the wonders of nature.</h4>
+            </div>
+            <div class="row flex-container">
+              <div class="bio-photos">
+                <img src="img/me_workbench.jpg" alt="me in a garden" class="img-thumbnail ri flex-item">
+              </div>
+              <div class="bio-photos">
+                <img src="img/me_guitar.jpg" alt="me sitting" class="img-thumbnail ri flex-item">
+              </div>
+            </div>
+          </div>
+          <div id="portfolio-space">
+            <div id="portfolio">
+              <div class ="row">
+                <h3 id="portfolio-title">MY WORK</h3>
+              </div>
+              <div class="portfolio-projects">
+                <div class="row portfolio-project-0">
+                  <h3 class="portfolio-sub">I like data.</h3>
+                  <div class="hello">
+                    <div class="row">
+                      <h4 class="portfolio-content">Technology is expanding the amount of information we collect and have access to everyday. How to turn this raw information into actionable datasets is a question which interests me.</h4>
+                    </div>
+                    <div class="row">
+                      <img src="img/BikeIndexAPI.jpg" alt="bike index logo" class="img-responsive portfolio-img-bike">
+                      <h4 class="portfolio-content float-block">I recently worked on a project to create a heat map for reported bikes stolen in a specified city. This Node.js based application collects data from the Bike Index API via an AJAX GET request. <br>This information was then sent by POST to Google Maps API to geocode the addresses and create the map.</h4>
+                    </div>
+                    <div class="row">
+                      <h4 class="portfolio-content">Currently I have been diving into the D3.js framework to look at other ways to visualize data.</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="row portfolio-project-1">
+                  <h3 class="portfolio-sub">I can monetize.</h3>
+                  <div class="hello">
+                    <div class="row">
+                      <h4 class="portfolio-content">While developing apps is fun, we all need to make a living. Finding ways to spread the word about your application as well as make money is a part of a developer's job.</h4>
+                    </div>
+                    <div class="row">
+                      <img src="img/perfect-vacation.png" alt="perfect vacation finder" class="img-responsive portfolio-img">
+                      <h4 class="portfolio-content float-block">Here I made a survey app for users to enter a series of questions. Based on the user's answers a potential vacation spot would be suggested.<br><br> While this application began as a school project I took it the extra step with social media integration. Users can share their results as status updates to Facebook. I connected the application with Audience network to allow for advertisement based income potential when users visit the page through mobile devices.</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="row portfolio-project-2">
+                  <h3 class="portfolio-sub">I know Ruby.</h3>
+                  <div class="hello">
+                    <div class="row">
+                      <h4 class="portfolio-content">Ruby is a great language. Whether using Sinatra to spin up a program in development or working on a full Rails deployment, I am learning all I can about the language and integrating databases into my applications using Active Record and other ORMs.
+                    </div>
+                    <div class="row">
+                      <a href="https://scrabble-score-calculator.herokuapp.com/"><img src="img/scrabble_score.png" alt="scrabble score" class="img-responsive portfolio-img"></a>
+                      <h4 class="portfolio-content float-block">Click the photo to run a small program which uses a flat text file to verify if a word entered by user is in the English language. It will then give the user the Scrabble score. This program has been deployed on Heroku.<br><br> To see a more in-depth project, follow the link below to view the source code for a group project which accessed the Spotify API. This program allows for a group of people to contribute to a shared playlist. I worked on the encryption scheme which was used to securely store user passwords in a PostGreSQL database using DataMapper and Warden.</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="row portfolio-project-3">
+                  <h3 class="portfolio-sub">I like time.</h3>
+                  <div class="hello">
+                    <div class="row">
+                      <h4 class="portfolio-content"><br>I worked as part of a collaborative effort to create a Drum Machine in JQuery. This project presented some interesting challenges in managing time. For modern web developers, being able to manage asynchronous events is an important skill and this project gave me a greater understanding of time in JavaScript.</h4>
+                    </div>
+                    <div class="row">
+                      <img src="img/beatsbox.png" alt="drum machine image" class="img-responsive portfolio-img">
+                      <h4 class="portfolio-content float-block">My role in this project was as a project manager as well as the backend logic for the looping script. Our team accomplished a lot. It was a challenge to create a editable loop with an interrupt in a single-thread language. </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="row portfolio-project-4">
+                  <h3 class="portfolio-sub">I like challenges.</h3>
+                  <div class="hello">
+                    <div class="row">
+                      <h4 class="portfolio-content">What attracts me to software development is that no two applications are the same. Even if you are solved the problem before, there might be a different way to solve it. Maybe this way did not exist a few years before.</h4>
+                    </div>
+                    <div class="row">
+                      <img src="img/computer_and_beer.jpg" alt="beer and computer" class="img-responsive portfolio-img-beer">
+                      <h4 class="portfolio-content float-block">Right now in addition to my full-time studies in JavaScript and Ruby on Rails I am experimenting in Clojure, C#, and Java. I love to solve algorithms and have competed in some competitive coding challenges.</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-nav">
+                <div class="row">
+                  <h3 id="portfolio-link-0" class="portfolio-link">See it on <a href="https://github.com/BrianHGrant/where-bike-theft" target="_blank">GitHub!</a></h3>
+                  <h3 id="portfolio-link-1" class="portfolio-link">Find your <a href="http://perfect-vacation.bhgconcepts.com/" target="_blank">Perfect Vacation!</a></h3>
+                  <h3 id="portfolio-link-2" class="portfolio-link">Be your own <a href="https://github.com/BrianHGrant/office_dj" target="_blank">Office Dj!</a></h3>
+                  <h3 id="portfolio-link-3" class="portfolio-link">Check it Out <a href="http://beats-box.bhgconcepts.com/" target="_blank">Live!</a></h3>
+                  <h3 id="portfolio-link-4" class="portfolio-link">See a project in <a href="https://github.com/BrianHGrant/clojure-noob/" target="_blank">Clojure!</a></h3>
+                </div>
+                <div class="row">
+                  <div class="nav-col">
+                    <img src="img/sign-previous-300px.png" alt="previous-arrow" id="up-arrow" class="img-responsive">
+                    <img src="img/sign-next-300px.png" alt="next-arrow" id="down-arrow" class="img-responsive">
+                  </div>
+                </div>
+              </div>
+            </div>``
+          </div>
+          <div id="resume-space">
+            <div class="resume-box">
+              <div class="resume-button-space row">
+                <button type="click" class="btn btn-primary" id="resume-btn-bio">My Bio</button>
+                <button type="click" class="btn btn-primary" id="resume-btn-portfolio">My Portfolio</button>
+                <button type="click" class="btn btn-primary" id="resume-btn-downloadPDF">Download Full PDF</button>
+              </div>
+              <ul class="soc">
+                <li><a class="soc-linkedin" href="http://www.linkedin.com/in/brianhgrant"></a></li>
+                <li><a class="soc-email1 " href="mailto:bhgrant8@gmail.com"></a></li>
+                <li><a class="soc-facebook" href="http://www.facebook.com/brian.grant.982292"></a></li>
+                <li><a class="soc-github soc-icon-last" href="https://github.com/brianhgrant"></a></li>
+              </ul>
+            </div>
+            <div class ="row">
+              <div class="col-xs-11" id="header">
+                <h3>Brian H. Grant<br>
+                    8535 SW Spruce St.<br>
+                    Portland, OR 97223<br>
+                    brian@bhgconcepts.com<br>
+                    <br>
+                </h3>
+              </div>
+            </div>
+            <div class="body">
+              <h3 id="resume-section">Skills</h3>
+              <ul class="resume-main">
+                <li><strong>Languages:</strong>
+                  <ul>
+                    <li><strong>Proficient:</strong> Ruby, HTML, CSS, Javascript (JQuery)</li>
+                    <li><strong>Working Knowledge:</strong> C#, Java, PHP, Ember.js</li>
+                    <li><strong>Introductory Knowledge:</strong> Clojure, Node.js, Angular(2).js, D3.js</li>
+                  </ul>
+                </li>
+                <li><strong>Frameworks:</strong> Rails, Sinatra, .NET</li>
+                <li><strong>Systems:</strong> Windows XP/7/8/10, Windows Server 2012, Mac OS X, Linux</li>
+                <li><strong>Databases:</strong> SQL Server (Transact­SQL), MySQL (PL­SQL), PostGres, MS Access</li>
+                <li><strong>Project Management:</strong> Agile, SCRUM, Behavior Driven Development</li>
+              </ul>
+              <h3 id="resume-section">Certifications</h3>
+              <ul class="resume-main">
+                <li>CompTIA A+</li>
+                <li>MCSA: Windows 8.1</li>
+              </ul>
+              <h3 id="resume-section">Selected Work Experience</h3>
+              <ul class="resume-main">
+                <li><span class="job-title">Technical Support Representative,</span> Xerox Services, October 2012 - March 2016</li>
+                <li><span class="job-title">Auditor,</span> WIS International, February 2011 - October 2012</li>
+                <li><span class="job-title">Inventory Associate,</span> RGIS, November 2007 - October 2009</li>
+                <li><span class="job-title">Volunteer Coordinator (AmeriCorps VISTA),</span> Wasington Reading Corps, November 2005 - November 2006</li>
+                <li><span class="job-title">Research Assistant,</span> Center for Rural Studies, December 2001 - December 2005</li>
+              </ul>
+              <h3 id="resume-section">Education</h3>
+              <ul class="resume-main">
+                <li><strong>Epicodus</strong>, Portland, OR, <strong>Ruby on Rails/JavaScript</strong>
+                  <ul>
+                    <li>Attending 5 month intensive program</li>
+                  </ul>
+                </li>
+                <li><strong>Portland Community College</strong>, Portland, OR, <strong>Computer Information Systems</strong>
+                  <ul>
+                    <li>Currently pursuing Associate of Applied Sciences</li>
+                    <li>4.0 GPA</li>
+                  </ul>
+                </li>
+                <li><strong>Team Treehouse</strong>, Online, <strong>Web Development/PHP</strong></li>
+                <li><strong>University of Vermont</strong>, Burlington, VT, <strong>Anthropology</strong>
+                  <ul>
+                    <li>Graduated with honors</li>
+                    <li>Bachelor of Arts</li>
+                    <li>English minor</li>
+                  </ul>
+                </li>
+              </ul>
+              <h3 id="resume-section">Professional Affiliations</h3>
+              <ul class="resume-main">
+                <li>Association of Information Technology Professionals</li>
+                <li>Toastmasters International (Project Management Institute Chapter)</li>
+              </ul>
+              <h3 id="resume-section">Interests</h3>
+              <ul class="resume-main" id="interests">
+                <li>Rockhounding,</li>
+                <li>Lapidary,</li>
+                <li>Metalsmithing,</li>
+                <li>Camping,</li>
+                <li>Hiking,</li>
+                <li>Live Music,</li>
+                <li>Projection</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
