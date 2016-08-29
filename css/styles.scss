@@ -95,6 +95,7 @@ Main content
 **************************/
 
 .main-content {
+  min-height: 611px;
   margin: 1em 2em 1em 2em;
   padding: 1em;
   border: 20px solid;
@@ -235,6 +236,10 @@ h3.portfolio-sub {
    margin: 1.5em;
  }
 
+ .content2 {
+   height: 228px;
+ }
+
  @media only screen and (max-width: 450px) {
    .portfolio-img-bike {
      float: none;
@@ -255,12 +260,12 @@ h3.portfolio-sub {
 
  .portfolio-link {
    float: right;
-   color: $light-blue;
+   color: lightyellow;
  }
 
  .portfolio-link a{
    font-family: $heading-font;
-   color: white;
+   color: $light-blue;
  }
 
  .nav-col {
@@ -300,6 +305,10 @@ h3.portfolio-sub {
 /***********************
 Resume Space
 ************************/
+
+.body {
+  margin-left: 10%;
+}
 
 #resume-space {
   padding:0.5em;
@@ -435,11 +444,9 @@ ul.resume-main {
 }
 
 .soc-freecodecamp {
-  background-color: #006400;
-}
-
-.soc-freecodecamp:before {
-  content:'x';
+  background-color: white;
+  background-image: url('./fonts/fcc_puckRoundedCorners600.png');
+  background-size: 100% 100%;
 }
 
 .row-flex, .row-flex > div[class*='col-'] {
