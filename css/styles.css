@@ -190,11 +190,11 @@ h3.portfolio-sub {
     text-align: center; } }
 .portfolio-link {
   float: right;
-  color: #7ABEC9; }
+  color: lightyellow; }
 
 .portfolio-link a {
   font-family: "Vollkorn", serif;
-  color: white; }
+  color: #7ABEC9; }
 
 .nav-col {
   width: 180px; }
@@ -336,10 +336,9 @@ ul.resume-main {
   content: '<'; }
 
 .soc-freecodecamp {
-  background-color: #006400; }
-
-.soc-freecodecamp:before {
-  content: 'x'; }
+  background-color: white;
+  background-image: url("./fonts/fcc_puckRoundedCorners600.png");
+  background-size: 100% 100%; }
 
 .row-flex, .row-flex > div[class*='col-'] {
   display: -webkit-box;
