@@ -174,9 +174,6 @@ h3.portfolio-sub {
   border-radius: 2px;
   margin: 1.5em; }
 
-.content2 {
-  height: 228px; }
-
 @media only screen and (max-width: 450px) {
   .portfolio-img-bike {
     float: none;
@@ -234,6 +231,10 @@ Resume Space
 .body {
   margin-left: 10%; }
 
+@media only screen and (max-width: 450px) {
+  .body {
+    margin-left: 5%;
+    padding-right: 5%; } }
 #resume-space {
   padding: 0.5em; }
 
