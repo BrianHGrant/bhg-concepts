@@ -110,7 +110,7 @@ Main content
 
 @media only screen and (max-width: 600px) {
   .main-content {
-      margin: 0;
+      margin: 0 2em 0 0;
   }
   img.ri {
     left: 5%
@@ -435,11 +435,9 @@ ul.resume-main {
 }
 
 .soc-freecodecamp {
-  background-color: #006400;
-}
-
-.soc-freecodecamp:before {
-  content:'x';
+  background-color: white;
+  background-image: url('./fonts/fcc_puckRoundedCorners600.png');
+  background-size: 100% 100%;
 }
 
 .row-flex, .row-flex > div[class*='col-'] {
@@ -474,10 +472,16 @@ ul.resume-main {
 .flex-container {
   display: -webkit-flex; /* Safari */
   display: flex;
-  -webkit-justify-content: space-around; /* Safari */
-  justify-content:         space-around;
+  -webkit-justify-content: space-between; /* Safari */
+  justify-content:         space-between;
 }
 
 .flex-container img {
   padding: 5px;
+}
+
+.bio-photos img {
+  margin-left: 15%;
+  margin-bottom: 10px;
+  max-width: 75%;
 }
