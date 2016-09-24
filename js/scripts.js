@@ -60,6 +60,9 @@ $(document).ready(function(event) {
 
   var i = 0
   $('#down-arrow').click(function(event) {
+    $('html, body').animate({
+        scrollTop: $('#portfolio-space').offset().top - 20
+    }, 'slow');
     $('.portfolio-project-' + i).hide();
     $('#portfolio-link-' + i).hide();
     if (i < 4) {
@@ -77,6 +80,9 @@ $(document).ready(function(event) {
   });
 
   $('#up-arrow').click(function(event) {
+    $('html, body').animate({
+        scrollTop: $('#portfolio-space').offset().top - 20
+    }, 'slow');
     $('.portfolio-project-' + i).hide();
     $('#portfolio-link-' + i).hide();
     if (i >= 0) {
