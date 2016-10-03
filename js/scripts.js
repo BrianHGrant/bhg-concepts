@@ -57,6 +57,11 @@ $(document).ready(function(event) {
   $('#resume-btn-downloadPDF').click(function(event) {
     window.open('./pdf/BrianGrantResume.pdf');
   })
+  $("#top-button").click(function(event) {
+    $('html, body').animate({
+        scrollTop: $('#resume-space').offset().top - 20
+    }, 'slow');
+  });
 
   var i = 0
   $('#down-arrow').click(function(event) {
@@ -92,7 +97,7 @@ $(document).ready(function(event) {
     };
     if (i === 0) {
       $("#up-arrow").hide();
-      $('#down-arrow').css("margin-left", "48%");
+      $('#down-arrow').css("margin-left", "50%");
     };
     $('#down-arrow').show();
     $('.portfolio-project-' + i).show();

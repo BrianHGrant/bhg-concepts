@@ -110,7 +110,8 @@ Main content
 
 @media only screen and (max-width: 600px) {
   .main-content {
-      margin: 0 2em 0 0;
+      margin: 0;
+      // padding-left: 3.5em;
   }
   img.ri {
     left: 5%
@@ -122,6 +123,11 @@ Main content
   }
 }
 
+// @media only screen and (max-width: 340px) {
+//   .main-content {
+//     padding-left: 2em;
+//   }
+// }
 /*************************
 Side Bar
 **************************/
@@ -239,17 +245,20 @@ h3.portfolio-sub {
    .portfolio-img-bike {
      float: none;
      margin-left: 25%;
+     margin-right: 0.5em;
     }
     .portfolio-img-beer {
       float: none;
-      margin-left: 15%;
+      margin-right: 0.5em;
     }
     .portfolio-img {
       float: none;
       margin-left: 20%;
+      margin-right: 0.5em;
      }
     .portfolio-content {
       text-align: center;
+      margin-right: 0.5em;
     }
  }
 
@@ -269,31 +278,32 @@ h3.portfolio-sub {
 
  #up-arrow {
    display: none;
-   height: 40px;
-   width: 80px;
+   height: 60px;
+   width: 20%;
    margin-top: 3em;
-   margin-left: 40%;
+   margin-left: 35%;
    margin-bottom: 0.5em;
  }
 
  #down-arrow {
    display: inline-block;
-   height: 40px;
-   width: 80px;
+   height: 60px;
+   width: 20%;
    margin-top: 3em;
    margin-bottom: 0.5em;
-   margin-left: 40%;
+   margin-left: 50%;
  }
 
  @media only screen and (max-width: 450px) {
    #up-arrow {
-     height: 30px;
-     width: 60px;
-     margin-left: 35%;
+     height: 40px;
+     width: 80px;
+     margin-left: 25%;
    }
    #down-arrow {
-     height: 30px;
-     width: 60px;
+     height: 40px;
+     width: 80px;
+     margin-left: 25%;
    }
  }
 
@@ -342,7 +352,13 @@ ul.resume-main {
 #interests li {
   display: inline-block;
 }
-
+#top-button {
+  text-align: center;
+  #thumb {
+    width: 60px;
+    height: 60px;
+  }
+}
 @font-face {
     font-family: 'si';
     src: url('./fonts/socicon.eot');

@@ -71,7 +71,7 @@ Main content
     border: none; } }
 @media only screen and (max-width: 600px) {
   .main-content {
-    margin: 0 2em 0 0; }
+    margin: 0; }
 
   img.ri {
     left: 5%; }
@@ -176,18 +176,21 @@ h3.portfolio-sub {
 @media only screen and (max-width: 450px) {
   .portfolio-img-bike {
     float: none;
-    margin-left: 25%; }
+    margin-left: 25%;
+    margin-right: 0.5em; }
 
   .portfolio-img-beer {
     float: none;
-    margin-left: 15%; }
+    margin-right: 0.5em; }
 
   .portfolio-img {
     float: none;
-    margin-left: 20%; }
+    margin-left: 20%;
+    margin-right: 0.5em; }
 
   .portfolio-content {
-    text-align: center; } }
+    text-align: center;
+    margin-right: 0.5em; } }
 .portfolio-link {
   float: right;
   color: #7ABEC9; }
@@ -201,29 +204,30 @@ h3.portfolio-sub {
 
 #up-arrow {
   display: none;
-  height: 40px;
-  width: 80px;
+  height: 60px;
+  width: 20%;
   margin-top: 3em;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-bottom: 0.5em; }
 
 #down-arrow {
   display: inline-block;
-  height: 40px;
-  width: 80px;
+  height: 60px;
+  width: 20%;
   margin-top: 3em;
   margin-bottom: 0.5em;
-  margin-left: 40%; }
+  margin-left: 50%; }
 
 @media only screen and (max-width: 450px) {
   #up-arrow {
-    height: 30px;
-    width: 60px;
-    margin-left: 35%; }
+    height: 40px;
+    width: 80px;
+    margin-left: 25%; }
 
   #down-arrow {
-    height: 30px;
-    width: 60px; } }
+    height: 40px;
+    width: 80px;
+    margin-left: 25%; } }
 /***********************
 Resume Space
 ************************/
@@ -257,6 +261,12 @@ ul.resume-main {
 
 #interests li {
   display: inline-block; }
+
+#top-button {
+  text-align: center; }
+  #top-button #thumb {
+    width: 60px;
+    height: 60px; }
 
 @font-face {
   font-family: 'si';
