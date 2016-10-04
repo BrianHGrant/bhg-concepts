@@ -10,7 +10,7 @@ My personal portfolio of work.
 
 ## Setup/Installation Requirements
 
-_Click <a href="https://www.bhgconcepts.com">Here</a> to view page live.
+Click <a href="http://www.bhgconcepts.com">Here</a> to view page live.
 
 ## Known Bugs
 
