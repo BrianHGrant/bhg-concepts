@@ -1,17 +1,16 @@
-# _My Portfolio_
+# BHG Concepts
 
-#### _Website Portfolio of Work, 5/27/2016_
+#### _Website Portfolio of Work, 10/3/2016_
 
 #### By _**Brian Grant**_
 
 ## Description
 
-_This is a web portfolio detailing my background in Technology and displaying some of my coding
-projects with links to the repositories on GitHub_
+My personal portfolio of work. 
 
 ## Setup/Installation Requirements
 
-_Click <a href="https://BrianHGrant.github.io/my-portfolio">Here</a> to view on GitPages_
+_Click <a href="https://www.bhgconcepts.com">Here</a> to view page live.
 
 ## Known Bugs
 
@@ -23,7 +22,7 @@ _Contact me at bhgrant8@gmail.com_
 
 ## Technologies Used
 
-_Site created using Bootstrap, CSS, and HTML
+_Site uses JQuery and Bootstrap
 
 ### License
 
